@@ -1,0 +1,43 @@
+footer {
+  background: grey;
+  padding-top: 30px;
+
+  .flex_box {
+    justify-content: end;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .col {
+    //padding-top: 50px;
+    width: 250px;
+    padding-bottom: 5x;
+    padding-right: 250px;
+
+    .menu {
+      height: auto;
+      margin-bottom: 5px;
+      //padding-left: 100px;
+      li {
+        padding-bottom: 17px;
+
+        a {
+          text-decoration: none;
+          color: #fff;
+          transition: 0.1s linear;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .text_2012 {
+    padding-right: 800px;
+    display: inline;
+  }
+  .text_change {
+    font-size: 12px;
+  }
+}
